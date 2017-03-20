@@ -14,7 +14,6 @@ frequency_sum_backward=0
 MaxLen=6
 
 #=====================词库操作部分================
-
 def get_first_shengmu(word):
         code = word.encode('gbk')  #tranform the word into 'gbk'code
         gbk_code = code[0] * 256 + code[1] - 65536  #according to the 'gbk'code we can get the first shengmu of the word
